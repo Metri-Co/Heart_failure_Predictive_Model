@@ -125,7 +125,7 @@ knn_y_pred = knn_clf.predict(X_test)
 
 metrics = create_metrics(y_test, knn_y_pred)
 ```
-Finally, I evaluate the models using accuracy, precision, and recall as metrics. It is widely known that false negatives in medical sciences are unacceptable, therefore, the best predictive model for classification was the KNN, because it is sacrified some precision in comparison to other models, but the accuracy is higher and the recall is also 10 % higher in comparison to SVM and Logit. It is important to mention that the new variables created improved the recall of the KNN model, you can run the programm with no data transformations (interactions and ratios), and you should obtain ~0.75 of recall in this model.
+Finally, I evaluate the models using accuracy, precision, and recall as metrics. It is widely known that false negatives in medical sciences are unacceptable, therefore, the best predictive model for classification was the KNN, because it is sacrificed some precision in comparison to other models, but the accuracy is higher and the recall is also 10 % higher in comparison to SVM and Logit. It is important to mention that the new variables created improved the recall of the KNN model, you can run the programm with no data transformations (interactions and ratios), and you should obtain ~0.75 of recall in this model.
 
 ![Engineered models](https://user-images.githubusercontent.com/87657676/178086240-f0b38808-e739-4315-8685-164cc4e15add.jpg)
 
