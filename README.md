@@ -36,7 +36,7 @@ new_col =  data['serum_sodium'] * data['ejection_fraction']
 data.insert(loc= 14, column = 'sodiumeject_interacts', value = new_col)
 ```
 ## Data visualization
-Use the following lines if you want to do a complete scatterplot of all features in the dataset
+Use the following lines if you want to do a scatterplot of a specific pair of features of the dataset
 ```
 fig, ax = plt.subplots()
 colors = {0:'red', 1:'blue'}
